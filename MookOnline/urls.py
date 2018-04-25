@@ -38,7 +38,7 @@ urlpatterns = [
     url(r'^course/', include('courses.urls', namespace='course')),
 
     url(r'^users/', include('users.urls', namespace='users')),
-
+    # 静态文件
     url(r'^media/(?P<path>.*)/$', serve, {'document_root': MEDIA_ROOT}),
     # url(r'^static/(?P<path>.*)/$', serve, {'document_root': STATIC_ROOT}),
     url(r'^captcha/', include('captcha.urls')),
