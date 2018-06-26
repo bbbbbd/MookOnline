@@ -97,9 +97,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mxonline',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
+        'USER': '******',
+        'PASSWORD': '*******',
+        'HOST': '*******',
         'OPTIONS': {
             "init_command": "SET foreign_key_checks = 0;",
                 }
